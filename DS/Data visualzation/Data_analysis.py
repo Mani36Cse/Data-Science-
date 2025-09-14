@@ -35,6 +35,7 @@ class Univariate_class:
             return  Describe
 
     def check_outliers(self,quan,Describe):
+        #self.Describe=Describe
         self.Lesser=[]
         self.Greater=[]
         for columnName in quan:
